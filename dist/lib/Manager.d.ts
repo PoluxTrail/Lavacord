@@ -39,7 +39,7 @@ export declare class Manager extends EventEmitter {
     /**
      * The Player the manager will use when creating new Players
      */
-    Player: typeof Player;
+    private Player;
     /**
      * An Set of all the expecting connections guild id's
      */

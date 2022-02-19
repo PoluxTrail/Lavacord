@@ -432,8 +432,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/manager.ts": {
-        "version": "c878326ed6e23a5d5b34de69808e906bd29109fc62ba3f82b20b357e2c2ca468",
-        "signature": "c0b2be0f908e23f5844a17dffec0ffe4cfbf8715f880ef111963fd1608c76f97",
+        "version": "9c602d18655d5a58544b3aa68006c4566520d46192e9fc3421a3aa52872c15c4",
+        "signature": "f02ad4e300d28f657413d5e57f94f46068c67468dbbd97a5d6097e36befc0bba",
         "affectsGlobalScope": false
       },
       "../src/lib/lavalinknode.ts": {
