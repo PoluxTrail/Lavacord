@@ -57,6 +57,7 @@ export class Manager extends EventEmitter {
         if (options.user) this.user = options.user;
         if (options.shards) this.shards = options.shards;
         if (options.player) this.Player = options.player;
+        console.log(this.Player)
         if (options.send) this.send = options.send;
 
         for (const node of nodes) this.createNode(node);
