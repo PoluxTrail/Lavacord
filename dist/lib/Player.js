@@ -119,7 +119,7 @@ class Player extends events_1.EventEmitter {
      * @param volume The volume as a float from 0.0 to 10.0. 1.0 is default.
      */
     async volume(volume) {
-        const d = await this.send("volume", { volume: volume * 100 });
+        const d = await this.send("volume", { volume: volume });
         if (this.listenerCount("volume"))
             this.emit("volume", volume);
         return d;
